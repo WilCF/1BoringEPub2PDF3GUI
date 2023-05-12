@@ -1,4 +1,3 @@
-```markdown
 # 1BoringEPUB2PDF3GUI
 
 1BoringEPUB2PDF3GUI is a simple Python application that allows you to convert EPUB files to PDF format with a user-friendly drag-and-drop interface.
@@ -35,5 +34,3 @@ Please make sure to update tests as appropriate.
 
 [MIT](https://choosealicense.com/licenses/mit/)
 ```
-
-Just replace the `[MIT](https://choosealicense.com/licenses/mit/)` line with the correct link to your license if you are using a different one.
