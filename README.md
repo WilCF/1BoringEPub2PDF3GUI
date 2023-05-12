@@ -1,5 +1,3 @@
-CAN: Not a problem! Here's the updated README for your `1BoringEPUB2PDF3GUI` repository:
-
 ```markdown
 # 1BoringEPUB2PDF3GUI
 
