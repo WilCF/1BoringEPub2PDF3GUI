@@ -3,10 +3,13 @@ import tkinter as tk
 from tkinter import filedialog
 from tkinterdnd2 import DND_FILES, TkinterDnD
 from ebooklib import epub
-from PyPDF2 import PdfFileWriter, PdfFileReader
 
 # Function to convert EPUB to PDF
 def epub_to_pdf(epub_path, pdf_path):
+    # Convert paths to absolute paths
+    epub_path = os.path.abspath(epub_path)
+    pdf_path = os.path.abspath(pdf_path)
+
     book = epub.read_epub(epub_path)
 
     for item in book.get_items():
@@ -25,6 +28,7 @@ def drop(event):
 
 # Create a TkinterDnD window
 root = TkinterDnD.Tk()
+root.title("1BoringEPUB2PDF3GUI")
 
 # Create a label with instructions
 label = tk.Label(root, text='Drag and drop an EPUB file here:', font=('Arial', 14))
