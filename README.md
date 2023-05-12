@@ -7,13 +7,13 @@
 
 To use this application, you'll first need to install a few Python libraries. You can do this by running the following command:
 
-```bash
+```
 pip install tkinter tkinterdnd2 ebooklib PyPDF2
 ```
 
 If you're using a Debian-based Linux distribution, you can install tkinter by running:
 
-```bash
+```
 sudo apt-get install python3-tk
 ```
 
